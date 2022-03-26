@@ -1,5 +1,4 @@
 import { TIMEOUT_SEC } from './config';
-import { uploadRecipe } from './model';
 const timeout = function (s) {
   return new Promise(function (_, reject) {
     setTimeout(function () {

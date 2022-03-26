@@ -1,8 +1,6 @@
-import icons from 'url:../img/icons.svg';
-
 import View from './views/view.js';
 
-export default class addOwnRecipeView extends View {
+class addOwnRecipeView extends View {
   _parentElement = document.querySelector('.upload');
   _message = 'Recipe is successfully uploaded:)';
   _window = document.querySelector('.add-recipe-window');
